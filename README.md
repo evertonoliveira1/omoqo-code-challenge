@@ -40,6 +40,8 @@ Execute the command to run the containers
 $ docker compose up
 ```
 
+### Applications:
+
 - **Web Application:** [http://localhost:3000](http://localhost:3000)
-- **API:** [https://localhost:8080/api](https://localhost:8080/api)
-- **API docs:** [https://localhost:8080/swagger/index.html](https://localhost:8080/swagger/index.html)
+- **API:** [http://localhost:8080/api](http://localhost:8080/api)
+- **API docs:** [http://localhost:8080/swagger/index.html](http://localhost:8080/swagger/index.html)

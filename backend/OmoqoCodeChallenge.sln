@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OmoqoCodeChallenge.Domain", "OmoqoCodeChallenge.Domain\OmoqoCodeChallenge.Domain.csproj", "{436D64CF-48C9-4621-82A9-9CB2A2286C08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OmoqoCodeChallenge.Application", "OmoqoCodeChallenge.Application\OmoqoCodeChallenge.Application.csproj", "{71E8BFCE-E0EF-49B1-A22F-EC9710D7F133}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OmoqoCodeChallenge.Infrastructure", "OmoqoCodeChallenge.Infrastructure\OmoqoCodeChallenge.Infrastructure.csproj", "{848BEBFB-45BB-4B1F-BEA6-2CB255B2BD55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OmoqoCodeChallenge.Api", "OmoqoCodeChallenge.Api\OmoqoCodeChallenge.Api.csproj", "{F1FC05A0-C20A-42EF-B2C0-0967073AD333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmoqoCodeChallenge.Test", "OmoqoCodeChallenge.Test\OmoqoCodeChallenge.Test.csproj", "{3CD43407-42C7-4F8C-9A82-EC318AF1173F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{436D64CF-48C9-4621-82A9-9CB2A2286C08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{436D64CF-48C9-4621-82A9-9CB2A2286C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{436D64CF-48C9-4621-82A9-9CB2A2286C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{436D64CF-48C9-4621-82A9-9CB2A2286C08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71E8BFCE-E0EF-49B1-A22F-EC9710D7F133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71E8BFCE-E0EF-49B1-A22F-EC9710D7F133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71E8BFCE-E0EF-49B1-A22F-EC9710D7F133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71E8BFCE-E0EF-49B1-A22F-EC9710D7F133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{848BEBFB-45BB-4B1F-BEA6-2CB255B2BD55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848BEBFB-45BB-4B1F-BEA6-2CB255B2BD55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848BEBFB-45BB-4B1F-BEA6-2CB255B2BD55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848BEBFB-45BB-4B1F-BEA6-2CB255B2BD55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1FC05A0-C20A-42EF-B2C0-0967073AD333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1FC05A0-C20A-42EF-B2C0-0967073AD333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1FC05A0-C20A-42EF-B2C0-0967073AD333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1FC05A0-C20A-42EF-B2C0-0967073AD333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CD43407-42C7-4F8C-9A82-EC318AF1173F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD43407-42C7-4F8C-9A82-EC318AF1173F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD43407-42C7-4F8C-9A82-EC318AF1173F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD43407-42C7-4F8C-9A82-EC318AF1173F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9C13A59-3885-455A-830F-38A5DE8B9468}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+{
+    "systemTitle": "Sistema de gestão de navios",
+    "addButton": "Adicionar",
+    "saveButton": "Salvar",
+    "backButton": "Voltar",
+    "deleteButton": "Deletar",
+    "editButton": "Editar",
+    "searchButton": "Pesquisar",
+    "name": "Nome",
+    "width": "Largura (metros)",
+    "length": "Tamanho (metros)",
+    "code": "Código" ,
+    "createPageTitle": "Adicionar navio",
+    "updatePageTitle": "Atualizar navio",
+    "formatCodePattern": "Código (formato: AAAA-1111-A1)",
+    "deleteConfirmationTitle": "Confirmação de exclusão",
+    "deleteConfirmationMessage": "Tem certeza que deseja deletar esse item?",
+    "cancelButton": "Cancelar",
+    "confirmButton": "Confirmar" 
+}

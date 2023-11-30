@@ -1,0 +1,20 @@
+{
+   "systemTitle": "Ship Management",
+   "addButton": "Add",
+   "saveButton": "Save",
+   "backButton": "Back",
+   "deleteButton": "Delete",
+   "editButton": "Edit",
+   "searchButton": "Search",
+   "name": "Name",
+   "width": "Width (meters)",
+   "length": "Length (meters)",
+   "code": "Code",
+   "createPageTitle": "Add Ship",
+   "updatePageTitle": "Update Ship",
+   "formatCodePattern": "Code (format: AAAA-1111-A1)",
+   "deleteConfirmationTitle": "Delete Confirmation",
+   "deleteConfirmationMessage": "Are you sure you want to delete this item?",
+   "cancelButton": "Cancel",
+   "confirmButton": "Confirm" 
+}

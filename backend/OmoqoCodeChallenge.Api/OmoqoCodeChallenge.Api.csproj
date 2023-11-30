@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>OmoqoCodeChallenge.Api</RootNamespace>
+    <UserSecretsId>8d1d50d6-f584-4ea8-a4bf-cb8b01b82a7a</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.11" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OmoqoCodeChallenge.Application\OmoqoCodeChallenge.Application.csproj" />
+    <ProjectReference Include="..\OmoqoCodeChallenge.Application\OmoqoCodeChallenge.Application.csproj" />
+    <ProjectReference Include="..\OmoqoCodeChallenge.Infrastructure\OmoqoCodeChallenge.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

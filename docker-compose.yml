@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  omoqo-code-challenge-backend:
+    build: ./backend
+    container_name: omoqo-code-challenge-backend
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - 8080:80
+
+  omoqo-code-challenge-frontend:
+    build: ./frontend
+    container_name: omoqo-code-challenge-frontend
+    ports:
+      - 3000:80
+    links:
+      - omoqo-code-challenge-backend
